@@ -1,6 +1,5 @@
-https://www.codeproject.com/Articles/15971/Using-Inline-Assembly-in-C-C
-
-See section "Basic Inline Code". Do NOT use extended assembly as shown in the "Extended Assembly" section.
+# Project Grade: 100.0/100.0
+All programs were written and optimized for X86-64 machines with gcc module 7.10
 
 # CSE202-Assembly-SP2022
 Assembly: A programming exercise to write, compile, and link assembly code
