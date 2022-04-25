@@ -1,0 +1,15 @@
+-15213 = fn(15213)  <== negate
+3B6C = fn(15213)  <== decrement
+0 = fn(0)  <== negate
+DEADBEEF = fn(0)  <== decrement
+0, 1 = fn(0, 1)  <== sort
+-2147483648, 2147483647 = fn(2147483647, -2147483648)  <== sort
+18 = fn(3, 6, 4)  <== ceil((l * w * h) / 3)
+BAAAAAAD = fn(17, -13, 5)  <== ceil((l * w * h) / 3)
+0 = fn(0, 0, 0, 0, 0, 0)  <== length of line in 3D space
+1 = fn(1, 1, 1, 2, 2, 2)  <== length of line in 3D space
+5 = fn(3, 3, 3, 6, 6, 6)  <== length of line in 3D space
+0 = fn(9, 8, 0, 7, 5, 3, 1, 4)  <== sum of command-line arguments' ASCII values
+0 = fn(9, 8, 2, 9, 5, 3, 1, 4)  <== sum of command-line arguments' ASCII values
+314 = fn(9, 8, 2, 7, 5, 3, 1, 4)  <== sum of command-line arguments' ASCII values
+2361 = fn(9, 8, 2, 7, 5, 0, 1, 4)  <== sum of command-line arguments' ASCII values
