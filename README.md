@@ -34,23 +34,3 @@ The fn1arg function has already been implemented, so you have an example of what
   Explanation:
   The program is called as "./prog1 9 8 2 7 5 3 1 4". The 4th argument is 2, and the 5th argument is 7. These arguments "tell" the function to add the ASCII values of '8' (56), '2' (50), '7' (55), '5' (53), '3' (51), and '1' (49), which total 314. If the 4th argument is less than 1, or the 5th argument is greater than or equal to the value of argc, or if 4th argument is greater than the 5th argument, the function returns 0.
 
-# Additional Information
-Before you modify anything, you should test what you have downloaded. To do this, simply type "bash runTests.sh". This Bash script compiles the program and runs a suite of tests found in tests.in. It compares the output of your program with the output of the reference program (tests.reference) one test at a time. You do NOT need (nor should you) edit runTest.sh, makefile, or tests.in files.
-
-# Additional REQUIRED Actions
-In addition to submitting your code in the various assembly .S files, you need to upload two JPEG files. The first JPEG you are to create while you are developing/debugging your fn6args code. While running "gdb -tui --args ./prog1 3 3 3 6 6 6", step into your fn6args function and type the gdb command "info registers" to display all the register values. Know that you can use the shortcut "i r" to do the same thing, and you can type "i r edi" to just print the value in the %edi register. Save a screenshot of the output into a "registers.jpg" file and push this to GitHub. The second JPEG you are to create while you are developing/debugging your fn8args code. While running "gdb -tui --args ./a.out 1 2 3 4 5 6 7 8", step in the main code until you get to the call to fn8args and type the gdb command "frame" to show the stack frame. Doing so will help you identify where on the stack the 7th and 8th arguments are for the call to fn8args. Save a screenshot of the output into a "frame.jpg" file and push this to GitHub. You don't have to use the arguments listed here, those are just examples.
-
-# Recommended Approach
-1) Leverage the textbook.
-2) Work on this assignment a little every day... try NOT to procrastinate!
-
-# Important Notes
-1) The case of the input hex characters can be uppercase, lowercase, or mixed case.
-2) Add comments to your code; it will help you and the graders!
-3) Do NOT modify the prog1.c, runTests.sh, makefile, tests.in files; only modify the fn1argB.S through fn8args.S files.
-4) Push your code often!!! This will give you a backup, enable you to retrieve earlier versions, and demonstrate you actually wrote the code over time. If you only perform one push of your final code, your submission will be THOROUGHLY evaluated to ensure it is original. 
-5) Refer to the Programming Assignment Grading Rubric on Coursesite to maximize your score.
-6) To submit your code for grading, simply perform a "git push"; which will upload your changes to GitHub Classroom and run the auto-grader. You may continue to push changes until you are informed "All tests passed" or the deadline published on Coursesite has passed.
-7) Post any questions to Piazza.
-
-Check out https://en.wikipedia.org/wiki/Hexspeak for some "fun" reading.
